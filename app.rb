@@ -10,4 +10,6 @@ class App < Sinatra::Base
     gogo = params[:number]
     (gogo.to_i**2).to_s
   end
+
+  get '/say/:number/:phrase'
 end
