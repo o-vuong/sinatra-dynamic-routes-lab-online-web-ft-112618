@@ -7,6 +7,7 @@ class App < Sinatra::Base
   end
 
   get '/square/:number' do
-    
+    gogo = params[:number]
+    (gogo.to_i**2).to_s
   end
 end
