@@ -16,7 +16,7 @@ class App < Sinatra::Base
     num = params[:number]
     pha = params[:phrase]
     (num.to_i).times do
-      string += "#{}"
+      string += "#{pha}\n"
     end
   end
 end
