@@ -18,5 +18,6 @@ class App < Sinatra::Base
     (num.to_i).times do
       string += "#{pha}\n"
     end
+    string
   end
 end
