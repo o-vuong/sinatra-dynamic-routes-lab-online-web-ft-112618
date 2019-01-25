@@ -11,5 +11,7 @@ class App < Sinatra::Base
     (gogo.to_i**2).to_s
   end
 
-  get '/say/:number/:phrase'
+  get '/say/:number/:phrase' do
+    
+  end
 end
